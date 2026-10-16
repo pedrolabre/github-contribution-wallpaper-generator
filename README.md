@@ -18,6 +18,9 @@ github-contribution-wallpaper-generator/
 ├── src/
 │   ├── App.tsx
 │   ├── main.tsx
+│   ├── services/
+│   │   ├── cache.ts
+│   │   └── githubApi.ts
 │   ├── styles/
 │   │   └── globals.css
 │   └── types/
@@ -27,6 +30,9 @@ github-contribution-wallpaper-generator/
 ├── tailwind.config.js
 ├── tests/
 │   ├── App.test.tsx
+│   ├── services/
+│   │   ├── cache.test.ts
+│   │   └── githubApi.test.ts
 │   ├── setup.ts
 │   └── types/
 │       └── schemas.test.ts
