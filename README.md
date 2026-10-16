@@ -18,12 +18,18 @@ github-contribution-wallpaper-generator/
 ├── src/
 │   ├── App.tsx
 │   ├── main.tsx
-│   └── styles/
-│       └── globals.css
+│   ├── styles/
+│   │   └── globals.css
+│   └── types/
+│       ├── contributions.ts
+│       ├── schemas.ts
+│       └── wallpaper.ts
 ├── tailwind.config.js
 ├── tests/
 │   ├── App.test.tsx
-│   └── setup.ts
+│   ├── setup.ts
+│   └── types/
+│       └── schemas.test.ts
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
