@@ -22,7 +22,8 @@ github-contribution-wallpaper-generator/
 │   │   ├── cache.ts
 │   │   ├── githubApi.ts
 │   │   ├── mockGenerator.ts
-│   │   └── normalizer.ts
+│   │   ├── normalizer.ts
+│   │   └── statsCalculator.ts
 │   ├── styles/
 │   │   └── globals.css
 │   └── types/
@@ -36,7 +37,8 @@ github-contribution-wallpaper-generator/
 │   │   ├── cache.test.ts
 │   │   ├── githubApi.test.ts
 │   │   ├── mockGenerator.test.ts
-│   │   └── normalizer.test.ts
+│   │   ├── normalizer.test.ts
+│   │   └── statsCalculator.test.ts
 │   ├── setup.ts
 │   └── types/
 │       └── schemas.test.ts
