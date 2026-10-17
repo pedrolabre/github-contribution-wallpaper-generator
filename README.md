@@ -20,7 +20,9 @@ github-contribution-wallpaper-generator/
 │   ├── main.tsx
 │   ├── services/
 │   │   ├── cache.ts
-│   │   └── githubApi.ts
+│   │   ├── githubApi.ts
+│   │   ├── mockGenerator.ts
+│   │   └── normalizer.ts
 │   ├── styles/
 │   │   └── globals.css
 │   └── types/
@@ -32,7 +34,9 @@ github-contribution-wallpaper-generator/
 │   ├── App.test.tsx
 │   ├── services/
 │   │   ├── cache.test.ts
-│   │   └── githubApi.test.ts
+│   │   ├── githubApi.test.ts
+│   │   ├── mockGenerator.test.ts
+│   │   └── normalizer.test.ts
 │   ├── setup.ts
 │   └── types/
 │       └── schemas.test.ts
