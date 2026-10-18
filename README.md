@@ -17,6 +17,9 @@ github-contribution-wallpaper-generator/
 ├── README.md
 ├── src/
 │   ├── App.tsx
+│   ├── engine/
+│   │   ├── canvasContext.ts
+│   │   └── cellRenderer.ts
 │   ├── main.tsx
 │   ├── services/
 │   │   ├── cache.ts
@@ -33,6 +36,9 @@ github-contribution-wallpaper-generator/
 ├── tailwind.config.js
 ├── tests/
 │   ├── App.test.tsx
+│   ├── engine/
+│   │   ├── canvasContext.test.ts
+│   │   └── cellRenderer.test.ts
 │   ├── services/
 │   │   ├── cache.test.ts
 │   │   ├── githubApi.test.ts
