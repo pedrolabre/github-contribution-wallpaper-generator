@@ -20,7 +20,8 @@ github-contribution-wallpaper-generator/
 │   ├── engine/
 │   │   ├── canvasContext.ts
 │   │   ├── cellRenderer.ts
-│   │   └── matrixStreamModel.ts
+│   │   ├── matrixStreamModel.ts
+│   │   └── topographicWaveModel.ts
 │   ├── main.tsx
 │   ├── services/
 │   │   ├── cache.ts
@@ -40,7 +41,8 @@ github-contribution-wallpaper-generator/
 │   ├── engine/
 │   │   ├── canvasContext.test.ts
 │   │   ├── cellRenderer.test.ts
-│   │   └── matrixStreamModel.test.ts
+│   │   ├── matrixStreamModel.test.ts
+│   │   └── topographicWaveModel.test.ts
 │   ├── services/
 │   │   ├── cache.test.ts
 │   │   ├── githubApi.test.ts
