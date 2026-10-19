@@ -20,8 +20,10 @@ github-contribution-wallpaper-generator/
 │   ├── engine/
 │   │   ├── canvasContext.ts
 │   │   ├── cellRenderer.ts
+│   │   ├── cornerHudRenderer.ts
 │   │   ├── fibonacciSpiralModel.ts
 │   │   ├── matrixStreamModel.ts
+│   │   ├── noiseGenerator.ts
 │   │   └── topographicWaveModel.ts
 │   ├── main.tsx
 │   ├── services/
@@ -42,8 +44,10 @@ github-contribution-wallpaper-generator/
 │   ├── engine/
 │   │   ├── canvasContext.test.ts
 │   │   ├── cellRenderer.test.ts
+│   │   ├── cornerHudRenderer.test.ts
 │   │   ├── fibonacciSpiralModel.test.ts
 │   │   ├── matrixStreamModel.test.ts
+│   │   ├── noiseGenerator.test.ts
 │   │   └── topographicWaveModel.test.ts
 │   ├── services/
 │   │   ├── cache.test.ts
