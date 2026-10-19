@@ -17,6 +17,8 @@ github-contribution-wallpaper-generator/
 ├── README.md
 ├── src/
 │   ├── App.tsx
+│   ├── components/
+│   │   └── CanvasPreview.tsx
 │   ├── engine/
 │   │   ├── canvasContext.ts
 │   │   ├── cellRenderer.ts
@@ -25,6 +27,8 @@ github-contribution-wallpaper-generator/
 │   │   ├── matrixStreamModel.ts
 │   │   ├── noiseGenerator.ts
 │   │   └── topographicWaveModel.ts
+│   ├── hooks/
+│   │   └── useCanvas.ts
 │   ├── main.tsx
 │   ├── services/
 │   │   ├── cache.ts
@@ -41,6 +45,8 @@ github-contribution-wallpaper-generator/
 ├── tailwind.config.js
 ├── tests/
 │   ├── App.test.tsx
+│   ├── components/
+│   │   └── CanvasPreview.test.tsx
 │   ├── engine/
 │   │   ├── canvasContext.test.ts
 │   │   ├── cellRenderer.test.ts
@@ -49,6 +55,8 @@ github-contribution-wallpaper-generator/
 │   │   ├── matrixStreamModel.test.ts
 │   │   ├── noiseGenerator.test.ts
 │   │   └── topographicWaveModel.test.ts
+│   ├── hooks/
+│   │   └── useCanvas.test.ts
 │   ├── services/
 │   │   ├── cache.test.ts
 │   │   ├── githubApi.test.ts
