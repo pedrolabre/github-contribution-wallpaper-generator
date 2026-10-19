@@ -20,6 +20,7 @@ github-contribution-wallpaper-generator/
 │   ├── engine/
 │   │   ├── canvasContext.ts
 │   │   ├── cellRenderer.ts
+│   │   ├── fibonacciSpiralModel.ts
 │   │   ├── matrixStreamModel.ts
 │   │   └── topographicWaveModel.ts
 │   ├── main.tsx
@@ -41,6 +42,7 @@ github-contribution-wallpaper-generator/
 │   ├── engine/
 │   │   ├── canvasContext.test.ts
 │   │   ├── cellRenderer.test.ts
+│   │   ├── fibonacciSpiralModel.test.ts
 │   │   ├── matrixStreamModel.test.ts
 │   │   └── topographicWaveModel.test.ts
 │   ├── services/
