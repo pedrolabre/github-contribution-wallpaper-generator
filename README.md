@@ -18,7 +18,10 @@ github-contribution-wallpaper-generator/
 ├── src/
 │   ├── App.tsx
 │   ├── components/
-│   │   └── CanvasPreview.tsx
+│   │   ├── CanvasPreview.tsx
+│   │   ├── GeometryControls.tsx
+│   │   ├── ModelSelector.tsx
+│   │   └── ModelSpecificControls.tsx
 │   ├── engine/
 │   │   ├── canvasContext.ts
 │   │   ├── cellRenderer.ts
@@ -46,7 +49,10 @@ github-contribution-wallpaper-generator/
 ├── tests/
 │   ├── App.test.tsx
 │   ├── components/
-│   │   └── CanvasPreview.test.tsx
+│   │   ├── CanvasPreview.test.tsx
+│   │   ├── GeometryControls.test.tsx
+│   │   ├── ModelSelector.test.tsx
+│   │   └── ModelSpecificControls.test.tsx
 │   ├── engine/
 │   │   ├── canvasContext.test.ts
 │   │   ├── cellRenderer.test.ts
