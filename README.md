@@ -19,9 +19,11 @@ github-contribution-wallpaper-generator/
 │   ├── App.tsx
 │   ├── components/
 │   │   ├── CanvasPreview.tsx
+│   │   ├── CustomPaletteEditor.tsx
 │   │   ├── GeometryControls.tsx
 │   │   ├── ModelSelector.tsx
-│   │   └── ModelSpecificControls.tsx
+│   │   ├── ModelSpecificControls.tsx
+│   │   └── PaletteSelector.tsx
 │   ├── engine/
 │   │   ├── canvasContext.ts
 │   │   ├── cellRenderer.ts
@@ -33,6 +35,8 @@ github-contribution-wallpaper-generator/
 │   ├── hooks/
 │   │   └── useCanvas.ts
 │   ├── main.tsx
+│   ├── presets/
+│   │   └── colorPalettes.ts
 │   ├── services/
 │   │   ├── cache.ts
 │   │   ├── githubApi.ts
@@ -50,9 +54,11 @@ github-contribution-wallpaper-generator/
 │   ├── App.test.tsx
 │   ├── components/
 │   │   ├── CanvasPreview.test.tsx
+│   │   ├── CustomPaletteEditor.test.tsx
 │   │   ├── GeometryControls.test.tsx
 │   │   ├── ModelSelector.test.tsx
-│   │   └── ModelSpecificControls.test.tsx
+│   │   ├── ModelSpecificControls.test.tsx
+│   │   └── PaletteSelector.test.tsx
 │   ├── engine/
 │   │   ├── canvasContext.test.ts
 │   │   ├── cellRenderer.test.ts
@@ -63,6 +69,8 @@ github-contribution-wallpaper-generator/
 │   │   └── topographicWaveModel.test.ts
 │   ├── hooks/
 │   │   └── useCanvas.test.ts
+│   ├── presets/
+│   │   └── colorPalettes.test.ts
 │   ├── services/
 │   │   ├── cache.test.ts
 │   │   ├── githubApi.test.ts
