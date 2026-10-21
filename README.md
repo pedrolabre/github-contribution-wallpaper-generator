@@ -22,10 +22,12 @@ github-contribution-wallpaper-generator/
 │   │   ├── CustomPaletteEditor.tsx
 │   │   ├── GeometryControls.tsx
 │   │   ├── HUDControls.tsx
+│   │   ├── LockscreenOverlay.tsx
 │   │   ├── ModelSelector.tsx
 │   │   ├── ModelSpecificControls.tsx
 │   │   ├── PaletteSelector.tsx
-│   │   └── TaglineEditor.tsx
+│   │   ├── TaglineEditor.tsx
+│   │   └── Toolbar.tsx
 │   ├── engine/
 │   │   ├── canvasContext.ts
 │   │   ├── cellRenderer.ts
@@ -59,10 +61,12 @@ github-contribution-wallpaper-generator/
 │   │   ├── CustomPaletteEditor.test.tsx
 │   │   ├── GeometryControls.test.tsx
 │   │   ├── HUDControls.test.tsx
+│   │   ├── LockscreenOverlay.test.tsx
 │   │   ├── ModelSelector.test.tsx
 │   │   ├── ModelSpecificControls.test.tsx
 │   │   ├── PaletteSelector.test.tsx
-│   │   └── TaglineEditor.test.tsx
+│   │   ├── TaglineEditor.test.tsx
+│   │   └── Toolbar.test.tsx
 │   ├── engine/
 │   │   ├── canvasContext.test.ts
 │   │   ├── cellRenderer.test.ts
